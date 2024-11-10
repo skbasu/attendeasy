@@ -91,11 +91,11 @@ const HomeScreen = () => {
     };
 
     return (
-        <div className='p-5 min-h-screen'>
+        <div className='p-2 min-h-screen'>
             <div className='flex flex-row justify-between items-center'>
                 <div className='flex flex-row'>
                     <h2 className='text-2xl sm:text-4xl font-bold text-white font-sans'>Hi</h2>
-                    <h1 className='ml-2 text-2xl sm:text-4xl font-bold bg-gradient-to-r from-cyan-500 to-blue-500 bg-clip-text text-transparent'>{getFirstName(studentinfo.student_name)},</h1>
+                    <h1 className='pb-1 ml-2 text-2xl sm:text-4xl font-bold bg-gradient-to-r from-cyan-500 to-blue-500 bg-clip-text text-transparent'>{getFirstName(studentinfo.student_name)},</h1>
                 </div>
                 <AccountCircleOutlinedIcon className='cursor-pointer' onClick={handleClickOpen} style={{ color: "gray" }} fontSize="large" />
             </div>
