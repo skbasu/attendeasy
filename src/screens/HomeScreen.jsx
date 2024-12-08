@@ -91,7 +91,7 @@ const HomeScreen = () => {
     };
 
     return (
-        <div className='p-2 min-h-screen'>
+        <div className='p-4 min-h-screen'>
             <div className='flex flex-row justify-between items-center'>
                 <div className='flex flex-row'>
                     <h2 className='text-2xl sm:text-4xl font-bold text-white font-sans'>Hi</h2>
